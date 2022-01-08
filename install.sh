@@ -120,3 +120,9 @@ if has_not insomnia; then
   sudo apt install insomnia
   fi
 ok "Insomnia"
+
+if has_not bitwarden; then
+  sudo snap install bitwarden
+  fi
+ok "Insomnia"
+
